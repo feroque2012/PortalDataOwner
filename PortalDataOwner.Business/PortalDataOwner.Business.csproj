@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortalDataOwner.Data\PortalDataOwner.Data.csproj" />
+    <ProjectReference Include="..\PortalDataOwner.Dto\PortalDataOwner.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

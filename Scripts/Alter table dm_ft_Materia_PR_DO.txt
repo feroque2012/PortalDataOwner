@@ -1,0 +1,39 @@
+--Produção
+--alter table dm_ft_Materia_PR
+--add [pk_ChaveImportacao] [varchar](1000) NULL
+--go
+
+
+--alter table dm_ft_Materia_PR
+--alter column st_TierVeiculo varchar(250)
+--go
+
+--alter table dm_ft_Materia_PR
+--alter column st_Protagonismo varchar(250)
+--go
+
+
+--alter table dm_ft_Materia_PR
+--alter column st_Provacacao varchar(250)
+--go
+
+
+
+
+alter table dm_ft_Materia_PR_DO
+add [pk_ChaveImportacao] [varchar](1000) NULL
+go
+
+alter table dm_ft_Materia_PR_DO
+alter column st_TierVeiculo varchar(250)
+go
+
+alter table dm_ft_Materia_PR_DO
+alter column st_Protagonismo varchar(250)
+go
+
+
+alter table dm_ft_Materia_PR_DO
+alter column st_Provacacao varchar(250)
+go
+

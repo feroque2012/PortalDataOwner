@@ -1,0 +1,18 @@
+
+CREATE TABLE [dbo].[dm_ft_LogArquivoMateria](
+	[pk_Codigo] [int] IDENTITY(1,1) NOT NULL,
+	[pk_ChaveImportacao] [varchar](1000) NOT NULL,
+	[fk_Cliente] [varchar](1000) NULL,
+	[fk_Usuario] [varchar](1000) NULL,
+	[st_NomeArquivo] [varchar](1000) NULL,
+	[nm_Registros] [int] NULL,
+	[dt_Envio] [datetime] NULL,
+	[sn_Estorno] [bit] NULL,
+	[dt_Estorno] [datetime] NULL,
+	[fk_UsuarioEstorno] [varchar](1000) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[pk_Codigo] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
